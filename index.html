@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dress Code: Latte | MarTech & Technical Localization</title>
+    
+    <!-- Premium Fonts -->
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+    <!-- External CSS Link -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <div class="logo">☕ dresscode:latte</div>
+            <div class="lang-switcher">
+                <!-- Toggle between English and French -->
+                <button id="langBtn" onclick="toggleLanguage()">Français</button>
+            </div>
+        </header>
+
+        <main>
+            <section class="hero">
+                <div class="hero-icon">☕</div>
+                <h1 id="mainTitle">Solving MarTech Over Coffee</h1>
+                <p id="mainDesc">We bridge the gap between engineering and marketing. Specializing in technical integration, complex automation, and global localization for high-growth startups.</p>
+            </section>
+
+            <section class="services">
+                <div class="service-card">
+                    <h3 id="srv1Title">MarTech & APIs</h3>
+                    <p id="srv1Desc">Connecting core databases to marketing automation platforms (HubSpot, Salesforce) via custom JS scripts.</p>
+                </div>
+                <div class="service-card">
+                    <h3 id="srv2Title">Data & Tracking</h3>
+                    <p id="srv2Desc">Advanced GTM implementation, clean data layers, and privacy compliance (GDPR Consent Mode v2).</p>
+                </div>
+                <div class="service-card">
+                    <h3 id="srv3Title">Tech Localization</h3>
+                    <p id="srv3Desc">Adapting apps and codebase structures for European expansion, ensuring multi-lingual flow integrity.</p>
+                </div>
+                <div class="service-card">
+                    <h3 id="srv4Title">Front-End Optimization</h3>
+                    <p id="srv4Desc">Ultra-fast Vanilla JS solutions that improve performance metrics without bulk frameworks.</p>
+                </div>
+            </section>
+
+            <section class="contact-section">
+                <h2 id="contactTitle">Let's talk over coffee</h2>
+                <form class="contact-form" id="leadForm" onsubmit="handleFormSubmit(event)">
+                    <input type="text" id="formName" placeholder="Your Name" required>
+                    <input type="email" id="formEmail" placeholder="Your Email" required>
+                    <textarea id="formMessage" rows="4" placeholder="Tell us about your technical challenge..." required></textarea>
+                    <button type="submit" id="btnSubmit">Send Message</button>
+                </form>
+            </section>
+        </main>
+    </div>
+
+    <!-- External JavaScript Link -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
