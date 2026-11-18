@@ -4,14 +4,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>dress.code.latte | Technology, translated</title>
-  <meta name="description" content="Plain-language technical memos and explainers for angel groups, funds and early-stage founders.">
+  <meta name="description" content="Plain-language tech briefs and explainers for angel groups, funds and early-stage founders.">
   <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="assets/js/main.js" defer></script>
 </head>
 <body>
-  <div class="wrap">
-
-    <header class="site-header">
+  <header class="site-header">
+    <div class="wrap site-header__in">
       <a class="wordmark" href="#top">dress<i>.</i>code<i>.</i>latte</a>
       <nav class="site-nav" aria-label="Main">
         <a href="#services">Services</a>
@@ -19,18 +19,23 @@
         <a href="#about">About</a>
         <a href="#contact">Contact</a>
       </nav>
-    </header>
+    </div>
+  </header>
+  <div class="wrap">
 
     <main id="top">
 
       <div class="hero">
         <div>
-          <h1>Technology, translated for the people who fund it.</h1>
-          <p class="lede">I write plain-language technical memos and explainers for angel groups, funds and early-stage founders, so decisions about technology rest on understanding, not buzzwords.</p>
+          <p class="eyebrow">Tech briefs for angel groups and funds</p>
+          <h1>Technology, <em>translated</em> for the people who fund it.</h1>
+          <p class="lede">I write plain-language tech briefs and explainers for angel groups, funds and early-stage founders, so decisions about technology rest on understanding, not buzzwords.</p>
           <div class="btn-row">
-            <a class="btn btn--primary" href="mailto:dress.code.latte@gmail.com?subject=Sample%20memo%20request">Request a sample memo</a>
-            <a class="btn btn--ghost" href="https://www.linkedin.com/in/anna-rogachevsky-91142026">Connect on LinkedIn</a>
+            <a class="btn btn--primary" href="mailto:dress.code.latte@gmail.com?subject=Sample%20brief%20request">Request a sample brief</a>
+            <a class="btn btn--ghost" href="https://www.linkedin.com/in/anna-rogachevsky-91142026" target="_blank" rel="noopener noreferrer">Connect on LinkedIn<span class="sr-only"> (opens in a new tab)</span></a>
           </div>
+          <p class="email-line">Or write directly: <span class="email-text">dress.code.latte@gmail.com</span>
+            <button type="button" class="copy" data-copy="dress.code.latte@gmail.com">Copy email</button></p>
         </div>
       </div>
 
@@ -45,18 +50,23 @@
 
       <section id="services" aria-labelledby="services-h">
         <h2 id="services-h">Services</h2>
+        <div class="service-grid">
         <article class="service">
-          <h3>Tech memos</h3>
+          <span class="service__n">01</span>
+          <h3>Tech briefs</h3>
           <p>A two-page read on a startup’s technology: what exists, what is hard, what could go wrong, and the questions worth asking the founders. Delivered in five working days.</p>
         </article>
         <article class="service">
+          <span class="service__n">02</span>
           <h3>Explainers for founders and investors</h3>
           <p>Articles and short guides that make a technical idea clear to a non-technical reader, published under your name or mine.</p>
         </article>
         <article class="service">
+          <span class="service__n">03</span>
           <h3>Product and onboarding writing</h3>
           <p>Documentation, onboarding guides and release notes for small tech teams that want clear words without hiring a full-time writer.</p>
         </article>
+        </div>
       </section>
 
       <section id="how" aria-labelledby="how-h">
@@ -80,12 +90,15 @@
 
       <section id="contact" aria-labelledby="contact-h">
         <h2 id="contact-h">Contact</h2>
+        <div class="contact-card">
         <dl class="contact-list">
-          <dt>Email</dt><dd><a href="mailto:dress.code.latte@gmail.com">dress.code.latte@gmail.com</a></dd>
-          <dt>LinkedIn</dt><dd><a href="https://www.linkedin.com/in/anna-rogachevsky-91142026">linkedin.com/in/anna-rogachevsky-91142026</a></dd>
+          <dt>Email</dt><dd><a href="mailto:dress.code.latte@gmail.com">dress.code.latte@gmail.com</a>
+            <button type="button" class="copy" data-copy="dress.code.latte@gmail.com">Copy email</button></dd>
+          <dt>LinkedIn</dt><dd><a href="https://www.linkedin.com/in/anna-rogachevsky-91142026" target="_blank" rel="noopener noreferrer">linkedin.com/in/anna-rogachevsky-91142026<span class="sr-only"> (opens in a new tab)</span></a></dd>
           <dt>Replies</dt><dd>Within two working days.</dd>
         </dl>
         <a class="btn btn--primary" href="mailto:dress.code.latte@gmail.com?subject=Hello%20from%20the%20website">Write to me</a>
+        </div>
       </section>
 
     </main>

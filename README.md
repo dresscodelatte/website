@@ -9,6 +9,7 @@ A small static website (no build step, no dependencies, no cookies, no tracking)
 ├── index.html              Page content
 ├── assets/
 │   ├── css/styles.css      All styles (design tokens at the top)
+│   ├── js/main.js          "Copy email" button (no dependencies)
 │   └── img/
 │       └── favicon.svg         Browser tab icon
 ├── .editorconfig
@@ -19,7 +20,7 @@ A small static website (no build step, no dependencies, no cookies, no tracking)
 ## Contact details
 
 Email and LinkedIn are set in `index.html` (search for `mailto:` and `linkedin.com`).
-Update them there if they change.
+Update them there if they change. The "Copy email" buttons read the address from their `data-copy` attribute, so change it there too.
 
 ## Preview locally
 
